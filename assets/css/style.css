@@ -1,0 +1,45 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container-fluid {
+    background-color: #E83E8C;
+}
+#navbarSupportedContent {
+    text-align: right;
+}
+
+header{
+    text-align: center;
+}
+
+.tarjetas1 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 25% 25% 25%;
+    padding-left: 5rem;
+}
+
+.tarjetas2 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 25% 25% 25%;
+    padding-left: 5rem;
+    
+}
+
+.mediosdepago {
+    background-color: #17A2B8;
+
+   
+}
+
+
+.footerinferior {
+    background-color: #E83E8C;
+    text-align: center;
+}
+.fotofooter {
+    width: 5%;
+    display: inline-block; 
+}
