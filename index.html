@@ -17,113 +17,137 @@
 
 <body>
   <section>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <img src="assets/img/logo.png" width="10%" alt="logo"> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contacto</a>
-              </li>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e83e8c">
+      <div class="container-fluid container">
+          <img class="logo" src="assets/img/logo.png" href="Suricata">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="navbar-nav ms-auto">
+                  <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" href="#">Productos</a>
+                  <a class="nav-link" href="#">Contacto</a>
+              </div>
           </div>
-        </div>
-      </nav>
+      </div>
+  </nav>
     </section>
     <header>
-        <h1>Nuestros Productos</h1>
+        <h1 class="mt-5">Nuestros Productos</h1>
     </header>
 <!--MAIN-->
     <main>
-      <article class="tarjetas0">
-     <section class="tarjetas1">
-      <figure>
-        <div class="card" style="width: 18rem;">
-          <img src="assets/img/colaciones.jpg" alt="colacion" width: "248px" height: "132px">
-          <div class="card-body">
-            <h6 class="card-subtitle mb-2 text-muted">Colaciones</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p>asdf</p>
-            <p>as</p>
-            <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
-          </div>
-        </div>
-      </figure>
-      <figure>
-        <div class="card" style="width: 18rem;">
-          <img src="assets/img/desayunos.jpg" alt="desayuno" width: "248px" height: "132px">
-          <div class="card-body">
-            <h6 class="card-subtitle mb-2 text-muted">Desayunos</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p>asdf</p>
-            <p>as</p>
-            <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
-          </div>
-        </div>
-      </figure>
-      <figure>
-        <div class="card" style="width: 18rem;">
-          <img src="assets/img/bebidas.jpg" alt="bebidas" width: "248px" height: "132px">
-          <div class="card-body">
-            <h6 class="card-subtitle mb-2 text-muted">Bebidas</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <p>asdf</p>
-              <p>as</p>
-            <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
-          </div>
-        </div>
-      </figure>
-     </section>
-      <section class="tarjetas2">
-        <figure>
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/verduras.jpg" alt="verduras" width: "248px" height: "132px">
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-muted">Verduras</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <p>asdf</p>
-              <p>as</p>
-              <a href="#" class="card-link">Ver más</a>
-              <a href="#" class="card-link">Comprar</a>
+      <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/colaciones.jpg" class="card-img-top" alt="Colaciones">
+                        <div class="card-body">
+                            <h5 class="card-title">Colaciones</h5>
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/desayunos.jpg" class="card-img-top" alt="Desayunos">
+                        <div class="card-body">
+                            <h5 class="card-title">Desayunos</h5>
+                            <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/bebidas.jpg" class="card-img-top" alt="Bebidas">
+                        <div class="card-body">
+                            <h5 class="card-title">Bebidas</h5>
+                            <p class="card-text">Doloremque laudantium, totam rem aperiam, eaque</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </figure> 
-        <figure>
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/dulces.jpg" alt="dulces width: "248px" height: "132px">
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-muted">Dulces</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <p>asdf</p>
-              <p>as</p>
-              <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/verduras.jpg" class="card-img-top" alt="Verduras">
+                        <div class="card-body">
+                            <h5 class="card-title">Verduras</h5>
+                            <p class="card-text">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/dulces.jpg" class="card-img-top" alt="Dulces">
+                        <div class="card-body">
+                            <h5 class="card-title">Dulces</h5>
+                            <p class="card-text">Some quick example text to build on the card title and</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                    </div>
+                <div class="col">
+                    <div class="card" style="width: auto;">
+                        <img src="assets/img/empanadas.jpg" class="card-img-top" alt="Empanadas">
+                        <div class="card-body">
+                            <h5 class="card-title">Empanadas</h5>
+                            <p class="card-text">Some quick example text to build on the card title and</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </figure> 
-        <figure>
-          <div class="card" style="width: 18rem;">
-            <img src="assets/img/empanadas.jpg" alt="empanadas" width: "248px" height: "132px">
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-muted">Empanadas</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <p>asdf</p>
-              <p>as</p>
-              <a href="#" class="card-link">Ver más</a>
-            <a href="#" class="card-link">Comprar</a>
-            </div>
-          </div>
-        </figure>
-      </section>
-    </article>
+        </div>
+    </section>
     </main>
 <!--FOOTER-->
     <footer>
